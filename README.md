@@ -1,36 +1,36 @@
-OneDoctor – Transforming Healthcare Through Telemedicine
-OneDoctor is an innovative telemedicine platform designed to connect patients with skilled medical professionals for seamless and affordable healthcare. By integrating AI-driven tools, real-time consultations, and secure health record management, OneDoctor aims to make quality healthcare accessible to everyone, especially in underserved regions.
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-🚀 Key Features
-✅ Role-Based Authentication – Secure login for patients and medics using Google, GitHub, or email.
-✅ Virtual Consultations – Real-time video calls, chat, and messaging between doctors and patients.
-✅ AI-Powered Diagnostics – Smart tools to assist in preliminary diagnosis and treatment recommendations.
-✅ Appointment Booking – Schedule, manage, and track medical appointments with ease.
-✅ Secure Health Records – Patients and doctors can access and manage medical history securely.
-✅ Payment Integration – Secure transactions for consultations via M-Pesa, Stripe, and other gateways.
-✅ Emergency Services – In-person home visits and ambulance services for urgent care.
+## Getting Started
 
-🔧 Tech Stack
-Frontend: Next.js, React, Tailwind CSS
-Backend: Firebase (Firestore, Authentication)
-Authentication: Firebase Auth (Google, GitHub, Email)
-Payments: M-Pesa, Stripe
-🎯 Project Goals
-OneDoctor is built to eliminate long wait times, geographical barriers, and high medical costs, ensuring every patient gets timely and professional medical assistance.
+First, run the development server:
 
-📌 Getting Started
-Want to contribute or explore? Clone the repo and set up the project locally:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/onedoctor.git
-cd onedoctor
-npm install
+```bash
 npm run dev
-📢 Contributions Welcome!
-We’re always looking for contributors to help improve OneDoctor. If you’re passionate about health tech, feel free to open an issue or submit a pull request!
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-📧 For inquiries, reach out at: [Your Email]
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-🔗 Live Demo (Coming Soon!)
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
