@@ -1,20 +1,21 @@
-'use client'
-import React from 'react'
+import Contactpage from '@/components/Contactpage'
+import Heroespage from '@/components/Heroespage'
 import Navbar from '@/components/Navbar'
-import HeroesSection from '@/components/HeroesSection'
-import About from '@/components/About'
+import Projectpage from '@/components/Projectpage'
+import Skillspage from '@/components/Skillspage'
+import React from 'react'
 
 function page() {
   return (
     <div>
       <Navbar/>
-      <HeroesSection/>
-      <About/>
-
-
-
+      <Heroespage/>
+      <Skillspage/>
+      <Projectpage/>
+      <Contactpage/>
     </div>
   )
+
 }
 
 export default page
